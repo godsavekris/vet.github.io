@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <!-- Mobile Specific Meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Icon-->
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <!-- Meta Description -->
+  <meta name="description" content="Ветеринарная клиника «Семь жизней» — это современная многопрофильная ветеринарная клиника, оказывающая круглосуточную помощь вашим питомцам.">
+  <!-- Meta Keyword -->
+  <meta name="keywords" content="ветеринарная, клиника, ветеринар, вызов">
+  <!-- meta character set -->
+  <meta charset="UTF-8">
+  <!-- Site Title -->
+  <title>Ветклиника "Семь жизней"</title>
+
+  <!--CSS-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+    <div class="container"> <span class="navbar-brand mb-0 h1"><a href="index.html"><img class="img-fluid"
+            src="img/logo.png" alt="Логотип"><span class="navbar-brand__text">Ветклиника "Семь жизней"</span></a></span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service.html">Услуги</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">О клинике</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Контакты</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Начало баннера -->
+  <section class="hero-wrap" style="background-image: url('img/bg_2.jpg'); ">
+    <div class="banner-content container">
+      <div class="banner-content d-flex align-items-end">
+        <div><a href="index.html">Главная</a> <i class="fas fa-arrow-right"></i>
+          <a href="contact.html">Контакты</a></div>
+      </div>
+    </div>
+  </section>
+  <!-- Конец баннера -->
+  <section class="main-content-contact">
+    <!-- Начало блока контактов -->
+    <div class="contact-page-area section-gap">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 single-contact-address d-flex flex-row">
+            <div class="icon">
+              <i class="fas fa-map-marked-alt"></i>
+            </div>
+            <div class="contact-details">
+              <p>Смоленск</p>
+              <p> ул. Исаковского, д. 18</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 single-contact-address d-flex flex-row">
+            <div class="icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <div class="contact-details">
+              <p>+7 (951) 228-14-88</p>
+              <p>С пн. по сб. с 9.00 до 22.00</p>
+              <p>Вс. с 9.00 до 21.00</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 single-contact-address d-flex flex-row">
+            <div class="icon">
+              <i class="far fa-envelope-open"></i>
+            </div>
+            <div class="contact-details">
+              <p>7lives_vet@gmail.com</p>
+              <p>Свяжитесь с нашими специалистами</p>
+            </div>
+          </div>
+        </div>
+        <!-- Конец блока контактов -->
+
+         <!-- Начало блока карты -->
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d147262.96485637006!2d31.859878317901895!3d54.780251278076626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ce543c05e6573b%3A0xdb294e72f01cc4bd!2sSmolensk%2C%20Smolensk%20Oblast!5e0!3m2!1sen!2sru!4v1590122141206!5m2!1sen!2sru"
+            width="100%" height="445" frameborder="" style="border:0;" allowfullscreen="0" aria-hidden="false"
+            tabindex="0"></iframe>
+        </div>
+        <!-- Конец блока карты -->
+
+        <!-- Начало формы обратной связи -->
+        <div class="contact">
+          <div class="row no-padding">
+            <div class="col-lg-12">
+              <form class="form-area " id="myForm" action="mail.php" method="post" class="contact-form text-right">
+                <div class="row">
+                  <div class="col-lg-6 form-group">
+                    <input name="name" placeholder="Введите имя" onfocus="this.placeholder = ''"
+                      onblur="this.placeholder = 'Введите имя'" class="common-input mb-20 form-control" required=""
+                      type="text">
+
+                    <input name="email" placeholder="Введите email"
+                      pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''"
+                      onblur="this.placeholder = 'Введите email'" class="common-input mb-20 form-control" required=""
+                      type="email">
+
+                    <input name="subject" placeholder="Тема" onfocus="this.placeholder = ''"
+                      onblur="this.placeholder = 'Тема'" class="common-input mb-20 form-control" required=""
+                      type="text">
+                  </div>
+                  <div class="col-lg-6 form-group">
+                    <textarea class="common-textarea form-control" name="message" placeholder="Текст"
+                      onfocus="this.placeholder = ''" onblur="this.placeholder = 'Текст'" required=""></textarea>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="alert-msg" style="text-align: left;"></div>
+                    <button class="genric-btn primary circle" style="float: right;">Отправить</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- Конец формы обратной связи -->
+        <div class="text-center"><img class="dog-contact-img" class="img-fluid" src="img/contact-img.png" alt="dog"></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer no-gutters">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="left-info col">
+          <p>© Ветеринарная клиника «Семь жизней», 2020</p>
+          <p>Смоленск, +7 (951) 228-14-88</p>
+          <p><a href="mailto:7lives_vet@gmail.com">7lives_vet@gmail.com</a></p> 
+        </div>
+        <div class="right-info col">
+          <p>Мы в социальных сетях:</p>
+          <p>
+          <ul class="d-flex justify-content-end">
+            <li><a href=""><i class="fab fa-vk"></i></a></li>
+            <li><a href=""><i class="fab fa-odnoklassniki"></i></a></li>
+            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+          </ul>
+          </p>
+        </div>
+      </div>
+  </footer>
+
+
+  <script src="https://kit.fontawesome.com/cec30721ca.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

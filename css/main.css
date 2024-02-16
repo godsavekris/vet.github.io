@@ -1,0 +1,640 @@
+	/*-------------
+	Основные стили
+	-------------*/
+
+	.d-flex {
+		display: flex;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: "Open Sans";
+		color: #222;
+		line-height: 1.2em !important;
+		margin-bottom: 0;
+		margin-top: 0;
+		font-weight: 600;
+	}
+
+	.h1, .h2, .h3, .h4, .h5, .h6 {
+		margin-bottom: 0;
+		margin-top: 0;
+		font-family: "Poppins", sans-serif;
+		font-weight: 600;
+		color: #222
+	}
+
+	.section-gap {
+		margin-top: 100px;
+	}
+
+	@media (max-width: 992px) {
+		.section-gap {
+			margin-top: 50px;
+		}
+	}
+
+	.no-padding {
+		padding: 0;
+	}
+
+	.mb-30{
+		margin-bottom: 30px;
+	}
+	body {
+		height: 100%;
+		width: 100%;
+		display: flex;
+		font-family: "Poppins";
+		background-color: #f9f9ff;      
+		flex-direction: column;
+	}
+	.center{
+		text-align: center;
+	}
+
+	/*-------------
+		Шапка
+	-------------*/
+	
+
+	.navbar-brand a{
+		font-family: "Poppins";
+		font-weight: normal;
+		color: #222;
+		text-decoration: none;
+		}
+		.navbar-brand a:hover{
+		font-family: "Poppins";
+		color: #008cd2;
+		}
+
+	.nav-link:hover{
+		color: #008cd2 !important;
+	}
+
+	.navbar-brand img {
+		max-height: 70px;
+		
+		width: 100px;
+	}
+
+	nav {
+		color: white;
+	}
+
+	.nav-link {
+		font-size: 20px;
+	}
+
+	@media (max-width: 992px) {
+		.navbar-brand img {
+			width: 85px;
+		}
+	}
+
+	@media (min-width: 992px) {
+		nav .container {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	}
+
+	@media (max-width: 768px) {
+		.navbar-brand img {
+			width: 70px;
+		}
+	}
+	@media (max-width: 400px) {
+		.navbar-brand__text{
+			display: none;
+		}
+	}
+
+
+	/*-------------
+		Баннер
+    -------------*/
+	.hero-wrap {
+		height: 300px;
+		margin-top: 80px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
+
+	.banner-content{
+		height: 100%;
+	}
+	.banner-content a{
+		color: white;
+		font-weight: normal;
+		font-size: 24px;
+		text-decoration: none;
+	}
+	.banner-content a:hover{
+		color: #99d1ed ;      
+	}
+	.banner-content i{
+		color: white;
+		font-weight: bold;
+		font-size: 15px;
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+	.main-banner {
+		height: 500px;
+		margin-top: 80px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
+
+	.main-banner-content{
+		height: 70%;
+	}
+
+	@media (max-width: 992px) {
+		.hero-wrap {
+			height: 200px;
+			margin-top: 73px;
+		}
+		.banner-content a{
+			font-size: 18px;
+		}
+		.main-banner {
+			height: 400px;
+			margin-top: 73px;
+		}
+	}
+	@media (max-width: 768px) {
+		.hero-wrap {
+			margin-top: 63px;
+		}
+		.banner-content a{
+			font-size: 17px;
+		}
+		.main-banner {
+			height: 300px;
+			margin-top: 63px;
+		}
+	}
+
+	/*-------------
+		Главная
+    -------------*/
+	.main-content {
+		flex-grow: 1;
+		margin-bottom: 70px;
+	}
+	.main-content-main {
+		flex-grow: 1;
+	}
+
+	.ftco-section {
+		padding: 7em 0;
+		position: relative; }
+		@media (max-width: 767.98px) {
+		  .ftco-section {
+			padding: 6em 0; } }
+	  
+	  .ftco-bg-dark {
+		background: #3c312e; }
+	  
+	  .ftco-no-pt {
+		padding-top: 0 !important; }
+	  
+	  .ftco-no-pb {
+		padding-bottom: 0 !important; }
+
+	.heading-section .subheading {
+		font-size: 12px;
+		display: block;
+		font-weight: 600;
+		color: #00bd56;
+		text-transform: uppercase;
+		letter-spacing: 2px; }
+		  
+	.heading-section h2 {
+		font-size: 30px;
+		font-weight: 800; }
+		@media (max-width: 767.98px) {
+		.heading-section h2 {
+		font-size: 28px; } }
+	
+	.col-md-5 {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 41.66667%;
+		flex: 0 0 41.66667%;
+		max-width: 41.66667%; }
+
+
+
+@media (max-width: 992px) {
+	.dog-main-img{
+	max-width: 50%;
+	}
+}
+
+
+	
+	/*-------------
+      Преимущества
+	-------------*/
+
+	.advantages h2{
+		margin-bottom: 20px;
+	}
+	.advantages-item{
+		margin-bottom: 20px;
+		font-size: 20px;
+		font-family: "Poppins";
+	}
+	@media (max-width: 767.98px) {
+		.advantages-item{
+			margin-bottom: 5px;
+			font-size: 17px;
+		} 
+	}
+
+	.center {
+		font-size: 30px;
+		font-family: "Poppins";
+	}
+
+	@media (max-width: 768px) {
+		.center{
+		font-size: 25px;
+		}
+	}
+
+
+	/*-------------
+		Услуги
+	-------------*/
+	
+
+	.service-text p{
+		font-size: 20px;
+		font-family: "Poppins";
+	}
+
+	.service-text h2{
+		padding-bottom: 20px;
+		text-align: center;
+		font-size: 30px;
+		font-family: "Poppins";
+	}
+
+	@media (max-width: 768px) {
+		.service-text h2{
+		font-size: 25px;
+		}
+	}
+
+	@media (max-width: 768px) {
+		.service-text p{
+		font-size: 17px;
+		}
+	}
+
+	.table-text {
+		text-align: left;
+		justify-content: left;
+		font-size: 20px;
+	}
+
+	@media (max-width: 768px) {
+		.table-text {
+		font-size: 17px;
+		}
+	}
+
+	.text-center{
+		font-weight: normal;
+		font-size: 21px;
+	}
+
+	@media (max-width: 768px) {
+		.text-center {
+		font-size: 19px;
+		}
+	}
+
+	.bg-table{
+		background-color: #002d46;
+		color: white;
+	}
+
+	@media (max-width: 992px) {
+		.service-img{
+		display: none;
+		}
+	}
+	.services h2{
+		margin-bottom: 30px;
+	}
+	.carousel-content img{
+		width: 300px;
+		height: 200px;
+	}
+	.carousel-content a{
+		color: #222;
+		text-decoration: none;
+		font-size: 18px;
+	}
+	@media (max-width: 992px) {
+		.carousel-content {
+			margin-bottom: 20px;
+		}
+	}
+	@media (max-width: 768px) {
+		.carousel-content img{
+			width: 200px;
+			height: 150px;
+		}
+	}
+
+
+	/*-------------
+		О Нас
+	-------------*/
+	
+	.principles h2 {
+		text-align: center;
+		margin-bottom: 30px;
+		font-size: 30px;
+		font-family: "Poppins";
+	}
+
+	.principles-list .item {
+		justify-content: space-around;
+		text-align: left;
+		font-size: 20px;
+		margin-bottom: 5px;
+	}
+
+	.fa-check-square{
+		color: #008cd2;
+	}
+	.text-center{
+		text-align: center;
+	}
+	.main-content-about {
+		flex-grow: 1;
+	}
+	
+	@media (max-width: 992px) {
+		.dog-footer-img{
+		max-width: 350px;
+		}
+	}
+	@media (max-width: 768px) {
+		.dog-footer-img{
+		max-width: 300px;
+		}
+	}
+
+	@media (max-width: 992px) {
+		.principles-list .item{
+		font-size: 17px;
+		}
+	}
+
+	@media (max-width: 768px) {
+		.principles-list .item{
+		font-size: 17px;
+		}
+	}
+
+	@media (max-width: 768px) {
+		.principles h2{
+		font-size: 25px;
+		}
+	}
+
+	.dog-footer-text{
+		font-size: 20px;
+	}
+
+	@media (max-width: 992px) {
+		.dog-footer-text{
+		font-size: 17px;
+		}
+	}
+
+	@media (max-width: 768px) {
+		.dog-footer-text{
+		font-size: 17px;
+		}
+	}
+
+	.about-block__img{
+		max-width: 100%;
+		}
+
+	@media (max-width: 992px) {
+		.about-block__img{
+		max-width: 50%;
+		}
+	}
+
+	.about-block-text p{
+		font-size: 20px;
+		font-family: "Poppins";
+	}
+
+	@media (max-width: 768px) {
+		.about-block-text p{
+		font-size: 17px;
+		}
+	}
+
+	.about-block-text h2{
+		font-size: 30px;
+		font-family: "Poppins";
+		padding-bottom: 20px;
+	}
+
+	@media (max-width: 768px) {
+		.about-block-text h2{
+		font-size: 25px;
+		}
+	}
+
+	/*-------------
+		Контакты
+    -------------*/
+
+	.map {
+		max-width: 100%;
+		height: 445px;
+	}
+
+	.contact {
+		margin-top: 50px;
+	}
+
+	.single-contact-address {
+		margin-bottom: 20px;
+	}
+
+	.icon i {
+		color: #008cd2;
+		font-size: 35px;
+		margin-right: 20px;
+		margin-top: 10px;
+	}
+
+	@media (max-width: 768px) {
+		.icon i{
+		font-size: 25px;
+		}
+	}
+
+	.contact-details p {
+		color: black;
+		font-family: "Sans-serif";
+		font-weight: 300;
+		font-size: 18px;
+		margin: 0;
+	}
+
+	@media (max-width: 768px) {
+		.contact-details p{
+		font-size: 17px;
+		}
+	}
+
+	.form-area input {
+		padding: 15px;
+		margin-bottom: 20px;
+	}
+
+	.form-area input, .form-area textarea {
+		border-radius: 0;
+		font-size: 12px;
+	}
+
+	.form-area textarea {
+		height: 190px;
+		margin-top: 0px
+	}
+
+	.form-area .primary-btn {
+		-webkit-transition: all 0.3s ease 0s;
+		-moz-transition: all 0.3s ease 0s;
+		-o-transition: all 0.3s ease 0s;
+		transition: all 0.3s ease 0s
+	}
+
+	.genric-btn {
+		display: inline-block;
+		outline: none;
+		line-height: 40px;
+		padding: 0 30px;
+		font-size: 14px;
+		text-align: center;
+		text-decoration: none;
+		font-weight: 500;
+		cursor: pointer;
+		-webkit-transition: all 0.3s ease 0s;
+		-moz-transition: all 0.3s ease 0s;
+		-o-transition: all 0.3s ease 0s;
+		transition: all 0.3s ease 0s
+	}
+
+	.genric-btn.primary {
+		color: #fff;
+		background: #008cd2;
+		border: 1px solid transparent;
+	}
+
+	.genric-btn:hover{
+		background-color: #5eb3dd;  
+	}
+
+
+	@media (max-width: 992px) {
+		.banner-area {
+			padding-top: 40px;
+			margin-top: 60px;
+			padding-bottom: 40px;
+		}
+		.contact-page-area .container {
+			padding: 0;
+		}
+	}
+
+	@media (max-width: 576px) {
+		.contact-page-area .container {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+	}
+
+	.main-content-contact {
+		flex-grow: 1;
+	}
+
+	.dog-contact-img{
+		max-width: 100%;
+		}
+
+	@media (max-width: 992px) {
+		.dog-contact-img{
+		max-width: 50%;
+		}
+	}
+
+
+	/*-------------
+        Подвал
+    -------------*/
+
+	footer {
+		flex-shrink: 0;
+		background-color: #002d46;
+		color: #fff;;
+		padding-top: 20px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: normal;
+		font-size: 15px;
+		padding-bottom: 10px;
+	}
+
+
+	footer ul{
+		list-style: none;
+		}
+		footer ul >li{
+		font-size: 25px;	
+		margin-right: 15px;
+		}
+		footer ul >li>a{
+		color: white;
+		}
+		.right-info{
+		text-align: end;
+		}
+
+	.fab:hover{
+		color: #80c6e9;
+	}
+
+	@media (max-width: 992px) {
+		footer {
+			font-size: 14px;
+		}
+	}
+
+	.left-info a{
+		color:#80c6e9;
+	}
